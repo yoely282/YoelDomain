@@ -270,12 +270,10 @@ a:hover {
     position: relative;
   }
   
-  .about-containers {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+ .about-containers {
     gap: 2rem;
-    margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   
