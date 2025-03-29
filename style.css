@@ -269,14 +269,15 @@ a:hover {
   #about {
     position: relative;
   }
-  
- .about-containers {
+
+  .about-containers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-bottom: 2rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
-  
   .about-details-container {
     justify-content: center;
     flex-direction: column;
