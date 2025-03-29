@@ -359,8 +359,13 @@ a:hover {
   /* PROJECTS SECTION */
 
 #projects {
-    position: relative;
-  }
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(3, 1fr);    /* 3 rows */
+  gap: 10px; /* optional spacing between grid items */
+}
+
   
   .color-container {
     border-color: rgb(163, 163, 163);
