@@ -271,10 +271,13 @@ a:hover {
   }
   
   .about-containers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 2rem;
-    margin-bottom: 2rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
+
   
   .about-details-container {
     justify-content: center;
