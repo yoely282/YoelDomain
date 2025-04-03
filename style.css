@@ -65,7 +65,11 @@ a:hover {
 }
 
 .logo:img {
+<<<<<<< HEAD
   height: 60px;
+=======
+  heigh: 60px
+>>>>>>> 965f83f755e36f4781cdbe37dda45dbbdef3b29b
   width: auto;
 }
 
@@ -272,7 +276,11 @@ a:hover {
 
   .about-containers {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(3, 3fr);
+=======
+    grid-template-columns: repeat(3, 1fr);
+>>>>>>> 965f83f755e36f4781cdbe37dda45dbbdef3b29b
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -360,6 +368,7 @@ a:hover {
 
   /* PROJECTS SECTION */
 
+<<<<<<< HEAD
   #projects {
     height: auto !important;
     min-height: auto !important;
@@ -385,6 +394,11 @@ a:hover {
     width: 100%;
     display: block;
   }
+=======
+#projects {
+  position: relative;
+}
+>>>>>>> 965f83f755e36f4781cdbe37dda45dbbdef3b29b
 
   
   .color-container {
@@ -458,6 +472,7 @@ a:hover {
   footer p {
     text-align: center;
   }
+<<<<<<< HEAD
 
 
 @media screen and (max-width: 1200px) {
@@ -471,3 +486,5 @@ a:hover {
     grid-template-columns: auto;
   }
 }
+=======
+>>>>>>> 965f83f755e36f4781cdbe37dda45dbbdef3b29b
